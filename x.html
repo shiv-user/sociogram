@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="x.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script>
+        lastscroll = 0;
+        $(window).scroll(function(){
+            scroll = $(window).scrollTop();
+            if(scroll > lastscroll){
+                if(scroll > 690){
+                $('nav').addClass('shrink');
+            }
+            }else{
+             if(scroll < 150){
+                $('nav').removeClass('shrink');
+            }   
+            }
+            console.log(scroll);
+            lastscroll = scroll;
+        });
+            
+    </script>
+     </head>
+    <body>
+        <div id="main">
+    <nav>
+            <img src="pp.jpeg" >
+    <ul>
+       <li><a href="#">Login</a></li>
+        <li><a href="#">SignUp</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Team</a></li>
+                </ul> 
+            </nav>   </div> 
+         <br/>
+    <br><br/>
+        <br/>
+        <br/>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        hello
+    </body>
+    
+</html>
